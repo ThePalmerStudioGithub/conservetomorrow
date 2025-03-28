@@ -1,69 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="ConserveTomorrow - Leading a sustainable future.">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>ConserveTomorrow</title>
-  <link rel="stylesheet" href="assets/stylesheets/main.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      background-color: #fafafa;
+    }
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 1rem;
+      text-align: center;
+    }
+    nav {
+      background-color: #444;
+      text-align: center;
+      padding: 0.5rem;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 1rem;
+    }
+    .container {
+      max-width: 1100px;
+      margin: auto;
+      padding: 1rem;
+    }
+    section {
+      margin: 2rem 0;
+    }
+    section h2 {
+      border-bottom: 2px solid #333;
+      padding-bottom: 0.5rem;
+    }
+    .article-preview {
+      background-color: #f4f4f4;
+      padding: 1rem;
+      margin-bottom: 1rem;
+      border-left: 4px solid #333;
+    }
+    .article-preview h3 {
+      margin-top: 0;
+    }
+    footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
 </head>
 <body>
   <header>
-    <div class="container">
-      <h1>ConserveTomorrow</h1>
-      <nav>
-        <ul>
-          <li><a href="#about">About</a></li>
-          <li><a href="#goals">Our Goals</a></li>
-          <li><a href="#blog">Blog</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-    </div>
+    <h1>ConserveTomorrow</h1>
+    <p>Exploring Man-Made Disasters &amp; a Sustainable Future</p>
   </header>
-
-  <section id="hero">
-    <div class="container">
-      <h2>Protecting the Environment, Leading a Sustainable Future</h2>
-      <p>Join us on our journey to create a greener, cleaner world for future generations.</p>
-      <a href="#about" class="cta-btn">Learn More</a>
-    </div>
-  </section>
-
-  <section id="about" class="container">
-    <h2>About Us</h2>
-    <p>At ConserveTomorrow, we believe that sustainability is key to a brighter future. Our mission is to educate, inspire, and empower individuals and businesses to make eco-friendly choices that help preserve our planet for generations to come.</p>
-  </section>
-
-  <section id="goals" class="container">
-    <h2>Our Goals</h2>
-    <ul>
-      <li>Reduce carbon emissions and promote renewable energy.</li>
-      <li>Encourage sustainable consumption and waste reduction.</li>
-      <li>Support reforestation and biodiversity protection initiatives.</li>
-      <li>Advocate for eco-friendly policy changes and environmental justice.</li>
-    </ul>
-  </section>
-
-  <section id="blog" class="container">
-    <h2>Latest Blog Posts</h2>
-    <article>
-      <h3><a href="#">5 Simple Ways to Live More Sustainably</a></h3>
-      <p>Discover easy tips to help you reduce your environmental impact today!</p>
-    </article>
-    <article>
-      <h3><a href="#">The Future of Renewable Energy</a></h3>
-      <p>How renewable energy is shaping a sustainable future for all.</p>
-    </article>
-  </section>
-
-  <footer id="contact">
-    <div class="container">
-      <h2>Get in Touch</h2>
-      <p>Email us at: <a href="mailto:info@conservetomorrow.com">info@conservetomorrow.com</a></p>
-      <p>Follow us on social media: <a href="#">Instagram</a>, <a href="#">Twitter</a>, <a href="#">Facebook</a></p>
-    </div>
+  
+  <nav>
+    <a href="#disasters">Man-Made Disasters</a>
+    <a href="#sustainability">Sustainable Future</a>
+    <a href="#about">About Us</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  
+  <div class="container">
+    <section id="disasters">
+      <h2>Man-Made Disasters</h2>
+      <div class="article-preview">
+        <h3>Article Title 1</h3>
+        <p>A brief summary of the article on a significant man-made disaster...</p>
+        <a href="#">Read more</a>
+      </div>
+      <div class="article-preview">
+        <h3>Article Title 2</h3>
+        <p>A brief summary of another event highlighting the impact of human error...</p>
+        <a href="#">Read more</a>
+      </div>
+    </section>
+    
+    <section id="sustainability">
+      <h2>Sustainable Future</h2>
+      <div class="article-preview">
+        <h3>Article Title 3</h3>
+        <p>A brief summary of innovative sustainable practices and community efforts...</p>
+        <a href="#">Read more</a>
+      </div>
+      <div class="article-preview">
+        <h3>Article Title 4</h3>
+        <p>A brief summary on ways we can contribute to a better, more sustainable future...</p>
+        <a href="#">Read more</a>
+      </div>
+    </section>
+  </div>
+  
+  <footer>
+    <p>&copy; 2025 ConserveTomorrow. All rights reserved.</p>
   </footer>
 </body>
 </html>
-
