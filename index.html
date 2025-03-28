@@ -89,7 +89,7 @@
   <header>
     <h1>ConserveTomorrow</h1>
     <p>Exploring Man-Made Disasters &amp; a Sustainable Future</p>
-    <button class="mode-toggle" id='dark-light-mode-trigger' onclick="toggleMode()">🌙</button>
+    <button class="mode-toggle" id="dark-light-mode-trigger" onclick="toggleMode()">🌙</button>
   </header>
   
   <nav>
@@ -136,9 +136,13 @@
   <script>
     function toggleMode() {
       document.body.classList.toggle('dark-mode');
-      document.getElementById("dark-light-mode-trigger").innerText = "☀️";
-      if(document.body.classList.toggle.name = "dark-mode") {
-        document.getElementById("dark-light-mode-trigger").innerText = "🌙";
+      const toggleButton = document.getElementById('dark-light-mode-trigger');
+      if (document.body.classList.contains('dark-mode')) {
+        // When in dark mode, show sun to indicate a switch to light mode.
+        toggleButton.textContent = "☀️";
+      } else {
+        // When in light mode, show moon to indicate a switch to dark mode.
+        toggleButton.textContent = "🌙";
       }
     }
   </script>
